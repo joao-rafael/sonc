@@ -1,0 +1,41 @@
+/** Add css rules here for your application. */
+body{
+   font-family:  Georgia, serif;
+    background-color: #f9f9f9;
+}
+h1{
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0px;
+    font-family:  Georgia, serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2a89b2;
+}
+h4{
+    margin: 0px;
+}
+.header{
+    margin-left: 50px;
+}
+.students{
+    font-size: 14px;
+    color: #ba2d1d;
+    font-weight: 200;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
